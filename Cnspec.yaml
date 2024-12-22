@@ -1,0 +1,7 @@
+checks:
+  - id: binary-exists
+    type: file_exists
+    path: /app/app 
+  - id: port-exposed
+    type: port_exposed
+    port: 8080
