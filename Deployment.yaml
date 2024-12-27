@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: teopasc/go-web-app:latest # Replace with the image name
+        image: docker.io/teopascalev/go-web-project
         ports:
         - containerPort: 8080
